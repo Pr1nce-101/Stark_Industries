@@ -1,5 +1,6 @@
 import { heroStyles as styles} from "../Styles/hero";
 import { useNavigate } from "react-router-dom";
+import arcImg from "../imgs/ceo.png";
 
 export default function Quote() {
 
@@ -9,7 +10,7 @@ export default function Quote() {
         <section style={styles.hero}>
               <div style={styles.quoteRow}>
                 <img 
-                  src="src\imgs\Screenshot 2026-01-09 140223.png" 
+                  src={arcImg} 
                   alt="Stark Industries Logo" 
                   style={styles.vertical}
                 />
