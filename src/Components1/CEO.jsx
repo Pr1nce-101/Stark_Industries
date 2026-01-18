@@ -1,4 +1,5 @@
 import { heroStyles as styles } from "../Styles/hero";
+import arcImg from "../imgs/ceo.png";
 
 export default function CEO() {
     return (
@@ -6,7 +7,7 @@ export default function CEO() {
               <div style={styles.quoteRow}>
                 
                 <img 
-                  src="src\imgs\Screenshot 2026-01-09 140223.png" 
+                  src={arcImg}  
                   alt="Stark Industries Logo" 
                   style={styles.vertical}
                 />
